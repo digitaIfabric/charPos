@@ -8,7 +8,7 @@ var charCount = {};
       charCount[str[i]] = [i];
     }
     else {
-      charCount[str[i]].push(i)
+      charCount[str[i]].unshift(i)
     }
   }
 return charCount;
